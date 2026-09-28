@@ -1,0 +1,7 @@
+Model,Accuracy,Paid_Precision,Paid_Recall,Paid_F1
+Logistic Regression,0.64,0.0,0.0,0.0
+Decision Tree,0.6329,0.4138,0.0476,0.0854
+Random Forest,0.64,0.0,0.0,0.0
+Balanced Random Forest,0.615,0.3871,0.119,0.1821
+Behavioral Baseline (0.50),0.5564,0.3504,0.2718,0.3061
+Behavioral Baseline (0.20),0.4186,0.3623,0.8095,0.5006

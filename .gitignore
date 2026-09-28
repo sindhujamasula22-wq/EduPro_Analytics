@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+*.log
+
+# Local/raw datasets
+data/original/
+data/Copy of EduPro*
+data/EduPro Online Platform*
+
+# Intermediate ML datasets
+data/processed/ml_features.csv
+data/processed/ml_sequential_dataset.csv
+data/processed/test_features.csv
+data/processed/test_sequential.csv
+data/processed/train_features.csv
+data/processed/train_sequential.csv
