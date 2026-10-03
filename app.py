@@ -21,12 +21,6 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DATA_PATH = (
-    BASE_DIR
-    / "data"
-    / "original"
-    / "edupro_integrated.csv"
-)
 
 MODEL_PATH = (
     BASE_DIR
@@ -39,6 +33,7 @@ MODEL_PATH = (
 # LOAD DATA
 # =========================================
 
+DATA_PATH = BASE_DIR / "data" / "edupro_public.csv"
 df = pd.read_csv(DATA_PATH)
 
 df["TransactionDate"] = pd.to_datetime(
