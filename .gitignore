@@ -18,3 +18,6 @@ data/processed/test_features.csv
 data/processed/test_sequential.csv
 data/processed/train_features.csv
 data/processed/train_sequential.csv
+
+# Ignore accidental nested project copy
+EduPro_Analytics/
